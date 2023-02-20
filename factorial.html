@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+    <meta charset="UTF-8"> 
+    <title>Document</title>
+    <style>
+    </style>
+        <h1>
+            factorial 
+        </h1>
+    </head>
+    <body>
+        <center>
+            <br><br><br>
+            <input type="number" class="inputs" name="num" placeholder="Enter first number" id="num">
+            <br><br><br><br>
+            <input type="submit" value="Calculate" onclick="calculator()">
+        
+            </center>
+
+<script>
+function factorial(num) {
+  if (num === 0) {
+    return 1;
+  } else {
+    return num * factorial(num - 1);
+  }
+}
+
+
+function calculator() {
+            const num = Number(document.getElementsByClassName('inputs')[0].value);
+        
+}
+
+// Example usage:
+console.log(factorial(5)); // Output: 120
+</script>
+    </body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
